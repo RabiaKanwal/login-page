@@ -62,10 +62,10 @@ export default function Index() {
         </div>
 
         {/* Right Side - Sign In Form */}
-        <div className="flex-shrink-0 w-full max-w-md">
-          <div className="space-y-8">
+        <div className="flex-shrink-0 w-full max-w-sm md:max-w-md order-1 lg:order-2">
+          <div className="space-y-6 md:space-y-8">
             {/* Form Title */}
-            <h2 className="font-inter text-2xl font-bold text-black text-center">
+            <h2 className="font-inter text-xl md:text-2xl font-bold text-black text-center">
               Sign in
             </h2>
             
