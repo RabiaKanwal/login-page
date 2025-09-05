@@ -70,7 +70,7 @@ export default function Index() {
             </h2>
             
             {/* Form Fields */}
-            <div className="space-y-6">
+            <div className="space-y-4 md:space-y-6">
               {/* Email/Phone Input */}
               <div className="relative">
                 <div className="bg-input-bg rounded-xl border border-neutral-border shadow-design">
