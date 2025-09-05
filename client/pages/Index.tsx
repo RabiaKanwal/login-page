@@ -77,7 +77,7 @@ export default function Index() {
                   <Input
                     type="text"
                     placeholder="Enter Email or Phone"
-                    className="w-full h-14 px-4 bg-transparent border-0 text-sm font-medium text-text-secondary placeholder:text-text-secondary focus-visible:ring-0 focus-visible:ring-offset-0"
+                    className="w-full h-12 md:h-14 px-4 bg-transparent border-0 text-sm font-medium text-text-secondary placeholder:text-text-secondary focus-visible:ring-0 focus-visible:ring-offset-0"
                   />
                 </div>
               </div>
@@ -88,10 +88,10 @@ export default function Index() {
                   <Input
                     type="password"
                     placeholder="Password"
-                    className="w-full h-14 px-4 pr-12 bg-transparent border-0 text-sm font-medium text-text-secondary placeholder:text-text-secondary focus-visible:ring-0 focus-visible:ring-offset-0"
+                    className="w-full h-12 md:h-14 px-4 pr-12 bg-transparent border-0 text-sm font-medium text-text-secondary placeholder:text-text-secondary focus-visible:ring-0 focus-visible:ring-offset-0"
                   />
-                  <button className="absolute right-4 top-1/2 transform -translate-y-1/2">
-                    <Eye className="w-6 h-6 text-gray-400" />
+                  <button className="absolute right-3 md:right-4 top-1/2 transform -translate-y-1/2">
+                    <Eye className="w-5 md:w-6 h-5 md:h-6 text-gray-400" />
                   </button>
                 </div>
               </div>
@@ -104,7 +104,7 @@ export default function Index() {
               </div>
               
               {/* Sign In Button */}
-              <Button className="w-full h-14 bg-design-primary hover:bg-blue-600 text-white font-kanit font-bold text-base rounded-xl shadow-design">
+              <Button className="w-full h-12 md:h-14 bg-design-primary hover:bg-blue-600 text-white font-kanit font-bold text-sm md:text-base rounded-xl shadow-design">
                 Sign in
               </Button>
               
