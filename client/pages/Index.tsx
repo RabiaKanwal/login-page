@@ -118,8 +118,8 @@ export default function Index() {
               {/* Social Login Buttons */}
               <div className="flex justify-center space-x-3 md:space-x-4">
                 {/* Google */}
-                <button className="w-16 h-16 rounded-2xl border border-neutral-border bg-white shadow-design flex items-center justify-center hover:bg-gray-50">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <button className="w-12 h-12 md:w-16 md:h-16 rounded-xl md:rounded-2xl border border-neutral-border bg-white shadow-design flex items-center justify-center hover:bg-gray-50">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" className="md:w-6 md:h-6">
                     <path fillRule="evenodd" clipRule="evenodd" d="M23.04 12.2614C23.04 11.4459 22.9668 10.6618 22.8309 9.90909H12V14.3575H18.1891C17.9225 15.795 17.1123 17.013 15.8943 17.8284V20.7139H19.6109C21.7855 18.7118 23.04 15.7636 23.04 12.2614Z" fill="#4285F4"/>
                     <path fillRule="evenodd" clipRule="evenodd" d="M12 23.4998C15.105 23.4998 17.7081 22.4701 19.6109 20.7137L15.8943 17.8282C14.8645 18.5182 13.5472 18.926 12 18.926C9.00474 18.926 6.46951 16.903 5.56519 14.1848H1.72302V17.1644C3.61539 20.9228 7.50451 23.4998 12 23.4998Z" fill="#34A853"/>
                     <path fillRule="evenodd" clipRule="evenodd" d="M5.56523 14.1851C5.33523 13.4951 5.20455 12.758 5.20455 12.0001C5.20455 11.2421 5.33523 10.5051 5.56523 9.81506V6.83551H1.72318C0.944318 8.38801 0.5 10.1444 0.5 12.0001C0.5 13.8557 0.944318 15.6121 1.72318 17.1646L5.56523 14.1851Z" fill="#FBBC05"/>
