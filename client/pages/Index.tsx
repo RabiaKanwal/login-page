@@ -6,24 +6,24 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-design-bg font-inter">
       {/* Header */}
-      <header className="flex items-center justify-between px-8 py-4">
+      <header className="flex items-center justify-between px-4 md:px-8 py-4">
         <div></div> {/* Empty space for left side */}
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-3 md:gap-6">
           {/* Language Selector */}
           <div className="flex items-center gap-2">
-            <span className="text-xl font-normal text-black">English</span>
+            <span className="text-lg md:text-xl font-normal text-black">English</span>
             <svg width="10" height="10" viewBox="0 0 10 10" fill="none" className="ml-1">
               <path d="M5.00001 6.99999C4.70834 6.99999 4.41667 6.88749 4.19584 6.66665L1.47917 3.94999C1.35834 3.82915 1.35834 3.62915 1.47917 3.50832C1.60001 3.38749 1.80001 3.38749 1.92084 3.50832L4.63751 6.22499C4.83751 6.42499 5.16251 6.42499 5.36251 6.22499L8.07917 3.50832C8.20001 3.38749 8.40001 3.38749 8.52084 3.50832C8.64167 3.62915 8.64167 3.82915 8.52084 3.94999L5.80417 6.66665C5.58334 6.88749 5.29167 6.99999 5.00001 6.99999Z" fill="#292D32"/>
             </svg>
           </div>
           
           {/* Sign in */}
-          <span className="text-xl font-bold text-design-primary">Sign in</span>
+          <span className="text-lg md:text-xl font-bold text-design-primary">Sign in</span>
           
           {/* Register Button */}
           <Button 
             variant="outline" 
-            className="px-5 py-4 h-auto rounded-2xl border-neutral-border bg-white text-design-primary text-xl font-normal shadow-design hover:bg-gray-50"
+            className="px-3 md:px-5 py-3 md:py-4 h-auto rounded-2xl border-neutral-border bg-white text-design-primary text-lg md:text-xl font-normal shadow-design hover:bg-gray-50"
           >
             Register
           </Button>
@@ -31,10 +31,10 @@ export default function Index() {
       </header>
 
       {/* Main Content */}
-      <main className="flex min-h-[calc(100vh-120px)] items-center justify-between px-8">
+      <main className="flex flex-col lg:flex-row min-h-[calc(100vh-120px)] items-center justify-between px-4 md:px-8 py-8 lg:py-0 gap-8 lg:gap-0">
         {/* Left Side - Content */}
-        <div className="flex-1 max-w-4xl">
-          <div className="max-w-3xl">
+        <div className="flex-1 w-full lg:max-w-4xl order-2 lg:order-1">
+          <div className="max-w-3xl text-center lg:text-left">
             {/* Title */}
             <h1 className="font-sarabun text-6xl font-bold text-black mb-8 leading-tight">
               Perkin Elmer
