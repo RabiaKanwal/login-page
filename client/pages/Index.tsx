@@ -116,7 +116,7 @@ export default function Index() {
               </div>
               
               {/* Social Login Buttons */}
-              <div className="flex justify-center space-x-4">
+              <div className="flex justify-center space-x-3 md:space-x-4">
                 {/* Google */}
                 <button className="w-16 h-16 rounded-2xl border border-neutral-border bg-white shadow-design flex items-center justify-center hover:bg-gray-50">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
