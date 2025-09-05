@@ -1,5 +1,7 @@
 /** @import must precede all other statements */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -12,35 +14,41 @@
    * A different format will require also updating the theme in tailwind.config.ts.
   */
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 214 46% 95%; /* #F0F4FC */
+    --foreground: 0 0% 0%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 0 0% 0%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 0 0% 0%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 230 87% 63%; /* #4461F2 */
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 0 0% 98%;
+    --secondary-foreground: 0 0% 22%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 215 16% 59%; /* #6C737F */
+    --muted-foreground: 215 16% 46%;
 
     --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent-foreground: 0 0% 22%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 220 13% 88%; /* #E0E0E9 */
+    --input: 220 13% 88%;
+    --ring: 230 87% 63%;
 
     --radius: 0.5rem;
+
+    /* Custom design colors */
+    --input-bg: 0 0% 98%; /* #F9F9F9 */
+    --text-secondary: 0 0% 22%; /* #383838 */
+    --footer-bg: 0 0% 100%;
+    --shadow-color: 230 87% 63% / 0.11;
 
     --sidebar-background: 0 0% 98%;
 
@@ -69,8 +77,8 @@
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 230 87% 63%;
+    --primary-foreground: 0 0% 100%;
 
     --secondary: 217.2 32.6% 17.5%;
     --secondary-foreground: 210 40% 98%;
@@ -95,6 +103,12 @@
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Custom design colors for dark mode */
+    --input-bg: 240 3.7% 15.9%;
+    --text-secondary: 240 4.8% 95.9%;
+    --footer-bg: 222.2 84% 4.9%;
+    --shadow-color: 230 87% 63% / 0.11;
   }
 }
 
