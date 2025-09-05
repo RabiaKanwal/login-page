@@ -36,26 +36,26 @@ export default function Index() {
         <div className="flex-1 w-full lg:max-w-4xl order-2 lg:order-1">
           <div className="max-w-3xl text-center lg:text-left">
             {/* Title */}
-            <h1 className="font-sarabun text-6xl font-bold text-black mb-8 leading-tight">
+            <h1 className="font-sarabun text-4xl md:text-5xl lg:text-6xl font-bold text-black mb-6 lg:mb-8 leading-tight">
               Perkin Elmer
             </h1>
-            
+
             {/* Description */}
-            <p className="font-sarabun text-lg text-black mb-6 leading-relaxed max-w-2xl">
+            <p className="font-sarabun text-base md:text-lg text-black mb-4 lg:mb-6 leading-relaxed max-w-2xl mx-auto lg:mx-0">
               Just a random a UI kit I grabbed from figma for testing
             </p>
-            
+
             {/* Join Now Link */}
-            <a href="#" className="font-sarabun text-xl font-bold text-design-primary hover:underline">
+            <a href="#" className="font-sarabun text-lg md:text-xl font-bold text-design-primary hover:underline">
               Join Now!
             </a>
-            
+
             {/* Illustration */}
-            <div className="mt-8">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/2cd8fc41eb021b7d1977c22e41adb8ee1050470b?width=1116" 
-                alt="Illustration" 
-                className="w-full max-w-lg h-auto"
+            <div className="mt-6 lg:mt-8">
+              <img
+                src="https://api.builder.io/api/v1/image/assets/TEMP/2cd8fc41eb021b7d1977c22e41adb8ee1050470b?width=1116"
+                alt="Illustration"
+                className="w-full max-w-sm md:max-w-lg h-auto mx-auto lg:mx-0"
               />
             </div>
           </div>
