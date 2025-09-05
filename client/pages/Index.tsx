@@ -155,22 +155,22 @@ export default function Index() {
 
       {/* Footer */}
       <footer className="bg-white shadow-footer py-4">
-        <div className="flex items-center justify-between px-8">
+        <div className="flex flex-col md:flex-row items-center justify-between px-4 md:px-8 gap-4 md:gap-0">
           {/* Left side - Copyright */}
           <div className="flex items-center gap-2">
             <img src="https://api.builder.io/api/v1/image/assets/TEMP/3a20ce62b4f8387f2c2fd691bdc984bb494d6c43?width=42" alt="Logo" className="w-5 h-4" />
-            <span className="font-sarabun text-sm font-light text-text-secondary">© 2024</span>
+            <span className="font-sarabun text-xs md:text-sm font-light text-text-secondary">© 2024</span>
           </div>
-          
+
           {/* Right side - Footer Links */}
-          <div className="flex items-center gap-8">
-            <a href="#" className="font-sarabun text-sm font-light text-black hover:underline">About</a>
-            <a href="#" className="font-sarabun text-sm font-light text-black hover:underline">Terms of Use</a>
-            <a href="#" className="font-sarabun text-sm font-light text-black hover:underline">Privacy Policy</a>
-            <a href="#" className="font-sarabun text-sm font-light text-black hover:underline">Cookie Policy</a>
-            <a href="#" className="font-sarabun text-sm font-light text-black hover:underline">Copyright Policy</a>
-            <a href="#" className="font-sarabun text-sm font-light text-black hover:underline">Brand Policy</a>
-            <a href="#" className="font-sarabun text-sm font-light text-black hover:underline">Visitor Controls</a>
+          <div className="flex flex-wrap items-center justify-center gap-4 md:gap-8">
+            <a href="#" className="font-sarabun text-xs md:text-sm font-light text-black hover:underline">About</a>
+            <a href="#" className="font-sarabun text-xs md:text-sm font-light text-black hover:underline">Terms of Use</a>
+            <a href="#" className="font-sarabun text-xs md:text-sm font-light text-black hover:underline">Privacy Policy</a>
+            <a href="#" className="font-sarabun text-xs md:text-sm font-light text-black hover:underline">Cookie Policy</a>
+            <a href="#" className="font-sarabun text-xs md:text-sm font-light text-black hover:underline">Copyright Policy</a>
+            <a href="#" className="font-sarabun text-xs md:text-sm font-light text-black hover:underline">Brand Policy</a>
+            <a href="#" className="font-sarabun text-xs md:text-sm font-light text-black hover:underline">Visitor Controls</a>
           </div>
         </div>
       </footer>
