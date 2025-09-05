@@ -13,7 +13,19 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        'inter': ['Inter', 'system-ui', 'sans-serif'],
+        'sarabun': ['Sarabun', 'system-ui', 'sans-serif'],
+        'kanit': ['Kanit', 'system-ui', 'sans-serif'],
+      },
       colors: {
+        'input-bg': 'hsl(var(--input-bg))',
+        'text-secondary': 'hsl(var(--text-secondary))',
+        'footer-bg': 'hsl(var(--footer-bg))',
+        'neutral-border': '#E0E0E9',
+        'text-muted': '#6C737F',
+        'design-bg': '#F0F4FC',
+        'design-primary': '#4461F2',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -57,6 +69,10 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      boxShadow: {
+        'design': '0 18px 30px 0 rgba(68, 97, 242, 0.11)',
+        'footer': '0 -4px 30px 0 rgba(0, 0, 0, 0.10)',
       },
       borderRadius: {
         lg: "var(--radius)",
